@@ -12,6 +12,7 @@
     ./telescope.nix
     ./treesitter.nix
     ./which-key.nix
+    ./alpha.nix
   ];
 
   viAlias = true;
