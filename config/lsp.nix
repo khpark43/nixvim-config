@@ -9,7 +9,14 @@
         nixd.enable = true;
         ruff_lsp.enable = true;
         pyright.enable = true;
-        rust_analyzer.enable = true;
+        rust_analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
+        tsserver.enable = true;
+        html.enable = true;
+        jsonls.enable = true;
       };
       keymaps = {
         lspBuf = {
