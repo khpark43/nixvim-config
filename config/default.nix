@@ -1,7 +1,9 @@
 {
   imports = [
+    ./alpha.nix
     ./auto-pairs.nix
     ./bufferline.nix
+    ./completion.nix
     ./fidget.nix
     ./git.nix
     ./lightline.nix
@@ -12,7 +14,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./which-key.nix
-    ./alpha.nix
   ];
 
   viAlias = true;
