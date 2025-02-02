@@ -1,12 +1,12 @@
 {
   config.opts = {
-    updatetime = 100; # Faster completion
+    updatetime = 50; # Faster completion
 
     number = true;
     relativenumber = true;
     splitbelow = true;
     splitright = true;
-    scrolloff = 4;
+    scrolloff = 8;
 
     autoindent = true;
     expandtab = true;
